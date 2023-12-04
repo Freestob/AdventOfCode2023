@@ -6,6 +6,7 @@ async function advent() {
     let number2: string = "";
     let reverseString: string = "";
     let total: number = 0;
+
     for await (const line of file.readLines()) {
         for (let i = 0; i < line.length; i++){
             if(Number(line[i])){
